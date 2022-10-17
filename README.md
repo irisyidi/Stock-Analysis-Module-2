@@ -1,13 +1,46 @@
 # Stock-Analysis-Module-2
 ## Overview of Project: 
+The objective of the project is to make analysis of the stock dataset and to provide information on transaction volumes and stock returns of 11 stocks in 2017 and 2018. 
+
+
 ## Results:
 ### 1. Comparison of Stock Performance Between 2017 and 2018
-![Outcomes_vs_Goals](https://github.com/irisyidi/kickstarter-analysis-/blob/main/Theater_Outcomes_vs_Launch.png)
-![Outcomes_vs_Goals](https://github.com/irisyidi/kickstarter-analysis-/blob/main/Theater_Outcomes_vs_Launch.png)
+
+In 2017, except TERP stock's return, all other 10 stocks' returns are positive. The top 3 return in 2017 are those of stock DQ, ENPH, and FSLR with the rate of 199.4%, 129.5% and 101.3%, respectively. On the contrary, except ENPH and RUN with the rate of return, 81.9% and 84%, respectively, all other 9 stocks' returns are negative, which means that these stocks' prices decrease in 2018.  As for total daily transaction volume, the total daily volumes of stock DQ, ENPH, HASI, RUn, SEDG, TERP and VSLR present an increasing trend from 2017 to 2018 while the total daily volumes of AY, CSIQ, FSLR, JKS and SPWR present a decreasing trend. In 2017, the 3 largest daily transaction volumes are those of SPWR, FSLR, and CSIQ with the amount of 782,187,000; 684,181,400; and 310,592,800; repsectively. As for 2018, the 3 largest daily transaction volumes are those of ENPH, SPWR, and RUN, with the volumes of 607,473,500; 538,024,300; and 502,757,100; respectively. Generally speaking, comparing the differences of daily volumes and the return in 2017 and 2018, the increase in total daily volume contributes to the decrease in price and the decrease in rate of return. 
+
+![2017-challenge-result](https://github.com/irisyidi/Stock-Analysis-Module-2/blob/main/2017-challenge-result%20.png)
+
+2017-challenge-result
+
+
+![2018-challenge-result](https://github.com/irisyidi/Stock-Analysis-Module-2/blob/main/2018-challenge-result.png)
+
+2018-challenge-result
 
 ### 2. Comparison of the Execution Times of the Original Script and the Refactored Script 
-![Outcomes_vs_Goals](https://github.com/irisyidi/kickstarter-analysis-/blob/main/Theater_Outcomes_vs_Launch.png)
-![Outcomes_vs_Goals](https://github.com/irisyidi/kickstarter-analysis-/blob/main/Theater_Outcomes_vs_Launch.png)
+
+
+![2017-exercise](https://github.com/irisyidi/Stock-Analysis-Module-2/blob/main/2017-exercise.png)
+
+2017-exercise
+
+
+![VBA_Challenge_2017](https://github.com/irisyidi/Stock-Analysis-Module-2/blob/main/VBA_Challenge_2017.Png)
+
+VBA_Challenge_2017
+
+
+![2018-exercise](https://github.com/irisyidi/Stock-Analysis-Module-2/blob/main/2018-exercise.png)
+
+2018-exercise
+
+
+![VBA_Challenge_2018](https://github.com/irisyidi/Stock-Analysis-Module-2/blob/main/VBA_Challenge_2018.Png)
+
+VBA_Challenge_2018
+
+From the screenshots of the pop-up messages showing the elapsed run time for the original script and the refactored script, the elapsed run time for refactored scripts is less than that for the original script. The original code ran in 0.2890625 seconds for the year 2017 while the refactored code ran 0.265625 seconds for the year 2017. The orignal code ran in 0.2734375 seconds for year 2018 while the refactored code ran for 0.2617188 for year 2018. 
+The decline of the run time attributes to the improvement of the code by taking fewer steps and using less memory and improving the logic of the code. By using the tickerIndex ,the logic of the code has been improved and less memory is used in the process. As for the reason why less time is consumed when running the code for 2018 than that for 2017, it has connection of load of calculation. 
 
 ## Summary:
 ### 1. What are the advantages or disadvantages of refactoring code?
