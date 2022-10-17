@@ -39,9 +39,21 @@ VBA_Challenge_2017
 
 VBA_Challenge_2018
 
+![code](https://github.com/irisyidi/Stock-Analysis-Module-2/blob/main/code.png)
+
+Code Screenshot
+
 From the screenshots of the pop-up messages showing the elapsed run time for the original script and the refactored script, the elapsed run time for refactored scripts is less than that for the original script. The original code ran in 0.2890625 seconds for the year 2017 while the refactored code ran 0.265625 seconds for the year 2017. The orignal code ran in 0.2734375 seconds for year 2018 while the refactored code ran for 0.2617188 for year 2018. 
-The decline of the run time attributes to the improvement of the code by taking fewer steps and using less memory and improving the logic of the code. By using the tickerIndex ,the logic of the code has been improved and less memory is used in the process. As for the reason why less time is consumed when running the code for 2018 than that for 2017, it has connection of load of calculation. 
+The decline of the run time attributes to the improvement of the code by taking fewer steps and using less memory and improving the logic of the code. By using the tickerIndex ,the logic of the code has been improved and less memory is used in the process. As for the reason why less time is consumed when running the code for 2018 than that for 2017, it has connection with workload of calculation. 
 
 ## Summary:
 ### 1. What are the advantages or disadvantages of refactoring code?
+
+#### Advantages: 
+The refactoring is important process to make the code more efficient by taking fewer steps, using less memory or improving the logic of the code to make it easier for future users to read. the refactoring process facilitates the check of strategy to using better methods. Meanwhile, refactoring the code makes the code more reusable, clear and simple, which will improve the working efficiency to work with the similar problems. 
+
+#### Disadvantages: 
+The disadvantages is that the refactoring code does no add new function and the user has no idea of how long it will cost him to complete this process. Besides, there is potential risk if the refactored code is applied. It may waste much more time to solve the problems than to compile new code due to complexity of the refactored code. 
+
 ### 2. How do these pros and cons apply to refactoring the original VBA script?
+when refactoring the orignal VBA script, the application of the tickerIndex to increase the tickerVolume, tickerStartingPrice and tickerEndingPrice makes the logic more clear and easier. Separating the loop to output the ticker, total daily volume and the return with that to calculation of those takes fewer steps and uses less memory, which saves the time to run the code. 
